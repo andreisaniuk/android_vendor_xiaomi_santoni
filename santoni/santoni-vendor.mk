@@ -420,6 +420,8 @@ PRODUCT_PACKAGES += \
     libts_face_beautify_hal
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/santoni/proprietary/bin/dpmd:system/bin/dpmd \
+    vendor/xiaomi/santoni/proprietary/etc/ft5336_biel_1080p.ini:system/etc/ft5336_biel_1080p.ini \
+    vendor/xiaomi/santoni/proprietary/etc/ft5336_oufei_720p.ini:system/etc/ft5336_oufei_720p.ini \
     vendor/xiaomi/santoni/proprietary/etc/cne/SwimConfig.xml:system/etc/cne/SwimConfig.xml \
     vendor/xiaomi/santoni/proprietary/etc/cne/andsfCne.xml:system/etc/cne/andsfCne.xml \
     vendor/xiaomi/santoni/proprietary/etc/dpm/dpm.conf:system/etc/dpm/dpm.conf \
